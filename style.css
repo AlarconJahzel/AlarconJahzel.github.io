@@ -19,3 +19,9 @@ body
  	background: rgb(0,100,0);
  	text-align: center;
  }
+ .menu-bar ul
+ {
+ 	display: inline-flex;
+ 	list-style: none;
+ 	color: #fff;
+ }
