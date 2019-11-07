@@ -7,14 +7,48 @@
     .content {
       width: 100%;
       background-color: pink;
-      height: 350px;
-    }
+   .container {
+    position: relative;
+    width: 100px;
+    max-width: 400px;
 
-    .header {
-  overflow: hidden;
-  background-color: blue;
-  padding: 20px 10px;
+  }
+
+  .container img {
+    width: 1000%;
+    height: auto;
+  }
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 500%;
+    transform: translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  .container .btn:hover {
+    background-color: black;
+    text-align: center;
+
+  }
+  
+.footer {
+  background-color: black;
+  font: white;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
+
 
 </style>
 </head>
@@ -31,5 +65,10 @@
   <div class="content">
  <p> The words nature and natural are used for all the things that are normally not made by humans. Things like weather, organisms, landforms, celestial bodies and much more are part of nature. ... From another point of view, humans and nature can be said to be in conflict. Nature is often seen by humans as natural resources.</p>
 </div>
+
+<div class="footer">
+    <h2> Copyright@AlarconJahzel</h2>
+
+
 </body>
 </html>
