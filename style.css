@@ -50,9 +50,9 @@ h2{
 }
 
 .right {
-  width: 35%;
+  width: 25%;
   float:left;
-  height: 400px;
+  height: 200px;
   background: lightblue;
   border-left: 2px solid red;
 
