@@ -5,21 +5,22 @@
 
 body{
   margin: 0px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 
 }
  footer {
   padding:20px;
   background:black;
-  color: white;
+  color:black;
   border-radius:20px;
 }
 section {
-  width: 65%;
+  width:35%;
   float:left;
   height: 400px;
   background:grey;
+
 
 }
 h1{
@@ -49,23 +50,22 @@ h2{
 }
 
 .right {
-  width: 25%;
+  width: 65%;
   float:left;
-  height: 200px;
-  background: lightblue;
+  height: 400px;
+  background: pink;
   border-left: 2px solid red;
+ 
 
 }
-img{
 
-}
 main *{
   border-radius: 10px;
 }
 .main {
   margin: 10px 0px;
 }
-.main::after {
+.main::after  {
   content: "";
   clear: both;
   display: table;
